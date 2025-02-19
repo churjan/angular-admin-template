@@ -6,7 +6,7 @@ import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideHttpClient } from '@angular/common/http';
-import { iconsProvider } from './icons-provider';
+import { iconsProvider } from './core/providers/icons-provider';
 
 registerLocaleData(zh);
 
