@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedModule } from '@app/shared/shared.module';
 import { ApiService } from '@app/core/services/api.service';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [SharedModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.less',
 })
