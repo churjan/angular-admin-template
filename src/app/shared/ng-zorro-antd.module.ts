@@ -139,4 +139,4 @@ import { NzMessageModule } from 'ng-zorro-antd/message';
     // NzImageModule,
   ],
 })
-export class ZorroAntdModule {}
+export class NgZorroAntdModule {}
